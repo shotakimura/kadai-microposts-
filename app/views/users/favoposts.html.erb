@@ -55,8 +55,6 @@ Favorites <span class="badge">
 <% end %>
 </li>
     </ul>
-    
-<%= render 'microposts/microposts', microposts: @microposts, user: @user %>
-
+   <%= render 'microposts/microposts', microposts: @favoposts, user: @user %>
   </div>
 </div>
